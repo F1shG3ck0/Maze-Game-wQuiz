@@ -1,0 +1,9 @@
+Enter the reverse of Madam, madaM, 1, 00:00:30
+What is 10 + 10? Using Binary addition, 100, 1, 00:00:30
+Caesar cipher (Only Letters) cyberfox with a key of 7, jfilymvz, 3, 00:01:00
+How many Olympic rings are there?, 5, 2, 00:00:45
+An evil old woman considered frightful or ugly?, Hag, 2, 00:00:45
+What is a baby cat called?, Kitten, 1, 00:00:30
+Who played Severus Snape in the Harry Potter Films?, Alan Rickman, 3, 00:01:00
+What colour is the Pixar Lamp?, White, 2, 00:00:45
+On the 5th day of Christmas my true love gave to me…, 5 gold rings, 3, 00:01:00
