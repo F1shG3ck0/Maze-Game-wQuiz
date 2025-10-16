@@ -1,6 +1,6 @@
 #callbacks01.py
 #library of subprograms to support the GUIs
-#Rosa Madden 02/11/24
+#Rosa 02/11/24
 
 import tkinter.messagebox as mbox       #for messages
 from PlayGame01 import *    #access game play code library
@@ -630,3 +630,4 @@ def CheckAvatar():
 #run when the file is first opened
 resetAttempts(0)    #reset the number of Attempts to 0
 CheckAvatar()    #reset Avatars (always correct)
+
