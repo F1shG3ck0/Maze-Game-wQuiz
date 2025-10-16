@@ -3,10 +3,8 @@
 #and link to button event callbacks,
 #including acessing the database
 
-#Rosa Madden
+#Rosa
 #25/10/2024
-
-#line 126
 
 #import python library modules
 import tkinter as tk
@@ -1131,3 +1129,4 @@ def Leader():
     
 ##Main
 Main()    #call main to load in GUIs
+
