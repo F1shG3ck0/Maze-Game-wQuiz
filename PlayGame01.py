@@ -808,7 +808,7 @@ def ClueAns(QuestionFull, Answer):
         # Did the user hit a key?
         if event.type == KEYDOWN:
             #place holder to stop a build up of key presses
-            Pass
+            pass
 
     if str(QuestionA.upper()) == Answer.upper(): #answer was correct
         #print statements to test
