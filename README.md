@@ -1,3 +1,4 @@
+***OLD VERSION***
 Maze Game with Quiz (Python, Pygame, SQLite)
 
 A maze-based game where users answer questions to progress. 
