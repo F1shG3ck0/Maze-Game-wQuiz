@@ -539,10 +539,10 @@ def Initialise(aMazeFile, aClueFile, total_time):
     #declare global image variables
     global Wall, Avatar, Clue, Spy
     
-    Wall = pygame.image.load("Wall.png")     #load in the wall file
-    Avatar = pygame.image.load(AvatarFile)     #load in the avatar file
-    Clue = pygame.image.load("Clue.png")     #load in the Clue file
-    Spy = pygame.image.load("Spy.png")     #load in the Spy file
+    Wall = pygame.image.load("Images/Wall.png")     #load in the wall file
+    Avatar = pygame.image.load("Images/" + AvatarFile)     #load in the avatar file
+    Clue = pygame.image.load("Images/Clue.png")     #load in the Clue file
+    Spy = pygame.image.load("Images/Spy.png")     #load in the Spy file
 
     #the references below are for the image icons within the game
     #ref26: https://www.deviantart.com/keatonmsk/art/Enemy-Pixel-Art-974179399
@@ -597,9 +597,9 @@ def Initialise(aMazeFile, aClueFile, total_time):
 
     global aClue
     #load the Maze from the file
-    aMaze = LoadFile(aMazeFile)
+    aMaze = LoadFile("Game_text_files/" + aMazeFile)
     #load the Clue from the file
-    aClue = LoadClueFile(aClueFile)
+    aClue = LoadClueFile("Game_text_files/" + aClueFile)
     splitQs()    #split questions by difficulty
 
     #Populate the posn lists and Global NumRows, NumCols
@@ -776,7 +776,7 @@ def DrawMaze():
     #add a small avatar icon
 ##    print(AvatarFile[:6])
 ##    print(((AvatarFile[:6]) + "0" + (AvatarFile[6:])))
-    A = pygame.image.load((AvatarFile[:6]) + "0" + (AvatarFile[6:]))     #load in the avatar file
+    A = pygame.image.load("Images/" + (AvatarFile[:6]) + "0" + (AvatarFile[6:]))     #load in the avatar file
     scaled_Avatar = pygame.transform.scale(A, ((Width-10), (Width-10)))  #scale the image to the right scale
     SCREEN.blit(scaled_Avatar, (ExWidth - dis - (Width + Thick), 7))    #draw image
   

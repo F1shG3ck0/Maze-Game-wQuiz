@@ -1,0 +1,11 @@
+What is Malware short for?, Malicious Software, 1, 00:00:30
+What Software secretly monitors someone?, Spyware, 2, 00:00:45
+What is Malware inside another file?, Trojan, 2, 00:00:45
+What Protects Computer Systems from Cyber Criminals?, Cyber Security, 1, 00:00:30
+What is accessing a computer system without permission called?, Hacking, 1, 00:00:30
+What is accessing a computer system with the owner’s permission called?, Ethical Hacking, 3, 00:01:00
+What year was the UK Data protection Act which protects your personal information?, 2018, 3, 00:01:00
+What year was the UK Computer Misuse Act?, 1990, 3, 00:01:00
+What is the malware that demands money to access your own data?, Ransomware, 3, 00:01:00
+What is malware that can multiply without using a file?, Worm, 2, 00:00:45
+What is malware that needs a file to multiply?, Virus, 2, 00:00:45

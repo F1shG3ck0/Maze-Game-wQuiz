@@ -201,7 +201,7 @@ def ManGame(NickName, CFilename, MFilename, MaxTime, Difficulty):
 ##            print("MFilename is valid")  #test print
             if ValidInp(NickName):
 ##                print("NickName is valid")  #test print
-                Valid = True    #only true if all the above inputs are true
+                Valid = True    #only true if all the above inputs are true    
 
     if Valid: 
         if InMaze(NickName):    #check if the Game already exists (by NickName)
@@ -259,7 +259,7 @@ def AddClues(CFilename):
 
 def ValidInp(aStr):
     #validate for Admin Management
-    ValidChars = "abcdefghijklmnopqrstuvwxyz0123456789._-"     #space not allowed to prevent SQL injection attacks
+    ValidChars = "abcdefghijklmnopqrstuvwxyz0123456789._-   "     #space not allowed to prevent SQL injection attacks
 
     #must pass all validation checks to return True
     if aStr != "":  #passes presence check
@@ -478,8 +478,8 @@ def PlayMSelected(Nickname, Username):
 
 def ValidFile(MazeRecord, Clue, UserRecord, AvatarFilename):
     #to check if files are valid before running the game
-    aFileM = MazeRecord[1]    #Maze filename
-    aFileC = Clue    #Clueset filename
+    aFileM = "Game_text_files/" + MazeRecord[1]    #Maze filename
+    aFileC = "Game_text_files/" + Clue    #Clueset filename
     Presence = LoadFile(aFileC)    #Use LoadFile to load in Clueset file
     
     if Presence != [] and (len(Presence)>8):    #check for NULL and >8
