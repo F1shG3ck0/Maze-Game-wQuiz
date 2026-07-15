@@ -46,28 +46,25 @@ pip install -r requirements.txt
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 Maze-Game-wQuiz/
 │
-├── interfaces.py
-├── callbacks01.py
-├── PlayGame01.py
-├── LogOnDataBase.py
+├── Game_text_files/      # Maze and question files
+├── Images/               # Game graphics and avatars
+├── Screenshots/          # README screenshots
+├── Reports/              # Coursework documentation
 │
-├── Images/
-│   ├── Wall.png
-│   ├── Clue.png
-│   ├── Spy.png
-│   ├── Avatar01.png
-│   ├── Avatar02.png
-│   ├── Avatar03.png
-│   ├── Avatar04.png
-│   └── ...
+├── interfaces.py         # Main application entry point
+├── callbacks01.py        # Event handling and application logic
+├── PlayGame01.py         # Pygame maze gameplay
+├── LogOnDataBase.py      # SQLite database functions
+├── MazeGameDatabase.db   # Application database
 │
-├── Game_text_files/
-│   ├── Maze1.txt
-│   ├── Cyber.txt
-│   └── ...
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
