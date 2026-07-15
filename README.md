@@ -1,22 +1,52 @@
-**Cyber Maze Quiz**
-**Requirements**
+# Cyber Maze Quiz
 
-Python 3.10 (developed and tested with Python 3.10.11)
+## Overview
 
-Python 3.12 may work, but Python 3.14 currently causes issues with some dependencies.
+Cyber Maze Quiz is a maze-based educational game where players navigate mazes and answer quiz questions to progress. The application includes user management, score tracking, leaderboards, and administrative tools for managing game content.
 
-**Install Dependencies**
+---
 
+## Screenshots
+
+### Gameplay
+
+![Gameplay](Screenshots/gameplay.png)
+
+### Login Screen
+
+![Login Screen](Screenshots/login.png)
+
+---
+
+## Requirements
+
+- Python 3.10 (developed and tested with Python 3.10.11)
+- Python 3.12 may work
+- Python 3.14 currently causes issues with some dependencies.
+
+  ---
+
+## Install Dependencies
+
+Install the required dependencies:
+
+```bash
 pip install pygame
 pip install pygame-widgets
 pip install pillow
+```
 
-or
+or use:
 
+```bash
 pip install -r requirements.txt
+```
 
-**Project Structure**
+---
 
+## Project Structure
+
+```text
 Maze-Game-wQuiz/
 │
 ├── interfaces.py
@@ -38,42 +68,60 @@ Maze-Game-wQuiz/
 │   ├── Maze1.txt
 │   ├── Cyber.txt
 │   └── ...
+```
 
+---
 
-**Running application**
+## Running application
+
+Run:
+
+```bash
 python interfaces.py
-or
+```
+
+or 
+
+```bash
 py -3.10 interfaces.py
-interfaces.py is the main entry point for the application.
+```
 
-**WARNING** - do not resize the simple GUI (It has not been designed for that as an A-Level project)
+`interfaces.py` is the main entry point for the application.
 
+---
 
-**Overview**
+## Notes
 
-Cyber Maze Quiz is a maze-based educational game where players navigate mazes and answer quiz questions to progress. The application includes user management, score tracking, leaderboards, and administrative tools for managing game content.
+> **WARNING**
+>
+> Do not resize the GUI window. The interface was originally designed as part of an A-Level project and does not support dynamic resizing.
 
-**Technologies Used**
+---
 
-Python
+## Technologies Used
 
-Tkinter
+- Python
+- Tkinter
+- SQLite
+- Pillow (PIL)
+- Pygame
+- Pygame Widgets
 
-SQLite
+---
 
-PIL (Pillow)
+## Features
 
-**Features**
+- User account management
+- Avatar selection
+- Maze-based gameplay
+- Question and clue system
+- Leaderboards and score tracking
+- Difficulty selection
+- Admin tools for managing game content
+- Local SQLite database storage
 
-User account management
-Avatar selection
-Maze-based gameplay
-Question and clue system
-Leaderboards and score tracking
-Difficulty selection
-Admin tools for managing game content
-Local SQLite database storage
-
-**Status**
+## Status
 
 This repository contains the original coursework submission and is no longer actively maintained. It is shared for educational and portfolio purposes.
+
+Developed by **F1shG3ck0**
