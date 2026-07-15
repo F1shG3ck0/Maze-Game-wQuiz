@@ -1,3 +1,8 @@
+
+# MAIN ENTRY POINT
+# Run this file to start the application:
+#     python interfaces.py
+
 #interfaces.py
 #code to generate the cyber maze GUI's
 #and link to button event callbacks,
@@ -293,7 +298,7 @@ def which_button(button_press):    #change button graphics dependant on button p
 
     #for previous button
     #maintain other button view
-    Imagereset = ("Avatar0%i.png"%pressed)
+    Imagereset = ("Images/Avatar0%i.png"%pressed)
     original_image = Image.open(Imagereset)
     # Scale the image (change width and height as needed)
     width, height = 45, 45  # Desired dimensions
@@ -314,7 +319,7 @@ def which_button(button_press):    #change button graphics dependant on button p
         imgAvatar4.image = tk_image
                  
     #change view of selected button
-    imagedarker = ("Avatar%i-dark70.png"%button_press)    #change the newly selected button to the selected appearance
+    imagedarker = ("Images/Avatar%i-dark70.png"%button_press)    #change the newly selected button to the selected appearance
     original_image = Image.open(imagedarker)
     # Scale the image (change width and height as needed)
     width, height = 45, 45  # Desired dimensions
@@ -909,7 +914,7 @@ def ManageAccount():
 
     #1
     # Load the image using PIL
-    original_image = Image.open("Avatar1-dark70.png")  #pre selected(darker image necessary)
+    original_image = Image.open("Images/Avatar1-dark70.png")  #pre selected(darker image necessary)
     
     # Scale the image
     width, height = 45, 45  # Desired dimensions (square)
@@ -928,7 +933,7 @@ def ManageAccount():
 
     #2
     #Load the image using PIL
-    original_image2 = Image.open("Avatar02.png")  #ordinary image (with background)
+    original_image2 = Image.open("Images/Avatar02.png")  #ordinary image (with background)
 
     # Scale the image
     width, height = 45, 45  # Desired dimensions (square)
@@ -948,7 +953,7 @@ def ManageAccount():
 
     #3
     #Load the image using PIL
-    original_image3 = Image.open("Avatar03.png")  #ordinary image (with background)
+    original_image3 = Image.open("Images/Avatar03.png")  #ordinary image (with background)
 
     # Scale the image
     width, height = 45, 45  # Desired dimensions (square)
@@ -968,7 +973,7 @@ def ManageAccount():
 
     #4
     #Load the image using PIL
-    original_image4 = Image.open("Avatar04.png")  #ordinary image (with background)
+    original_image4 = Image.open("Images/Avatar04.png")  #ordinary image (with background)
 
     # Scale the image
     width, height = 45, 45  # Desired dimensions (square)
@@ -1128,5 +1133,8 @@ def Leader():
     return    #end procedure
     
 ##Main
-Main()    #call main to load in GUIs
+#Main()    #call main to load in GUIs
+
+if __name__ == "__main__":
+    Main()
 
