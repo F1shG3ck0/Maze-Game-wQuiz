@@ -2,7 +2,7 @@
 
 ## Overview
 
-Cyber Maze Quiz is a maze-based educational game where players navigate mazes and answer quiz questions to progress. The application includes user management, score tracking, leaderboards, and administrative tools for managing game content.
+This is a maze-based educational game where players navigate mazes and answer questions, pitting themselves against enemies that can destroy them. The application includes user management, score tracking, leaderboards, and administrative tools for managing game content.
 
 ---
 
@@ -43,8 +43,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
-## Project Structure
 
 ## Project Structure
 
@@ -119,6 +117,6 @@ py -3.10 interfaces.py
 
 ## Status
 
-This repository contains the original coursework submission and is no longer actively maintained. It is shared for educational and portfolio purposes.
+This repository contains the original coursework submission and is no longer actively maintained. It is shared for educational and portfolio purposes only.
 
 Developed by **F1shG3ck0**
